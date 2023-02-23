@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="378.0" prefWidth="832.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gabler.c482jgabler.MainMenuController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="50.0" prefWidth="333.0" text="Inventory Management System">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button layoutX="761.0" layoutY="335.0" mnemonicParsing="false" onAction="#exitButton" text="Exit" />
+      <TableView layoutX="14.0" layoutY="89.0" prefHeight="200.0" prefWidth="369.0">
+        <columns>
+          <TableColumn prefWidth="55.32308864593506" text="PartsID" />
+          <TableColumn prefWidth="73.99999237060547" text="Part Name" />
+            <TableColumn prefWidth="99.10769653320312" text="Inventory Level" />
+            <TableColumn prefWidth="140.89230346679688" text=" Price/Cost Per Unit" />
+        </columns>
+      </TableView>
+      <Label layoutX="14.0" layoutY="72.0" text="Parts">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="429.0" layoutY="72.0" text="Products">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TableView layoutX="429.0" layoutY="89.0" prefHeight="200.0" prefWidth="369.0">
+         <columns>
+            <TableColumn prefWidth="55.32308864593506" text="PartsID" />
+            <TableColumn prefWidth="73.99999237060547" text="Part Name" />
+            <TableColumn prefWidth="99.10769653320312" text="Inventory Level" />
+            <TableColumn prefWidth="140.89230346679688" text=" Price/Cost Per Unit" />
+         </columns>
+      </TableView>
+      <Button layoutX="321.0" layoutY="289.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="238.0" layoutY="289.0" mnemonicParsing="false" text="Modify" />
+      <Button layoutX="179.0" layoutY="289.0" mnemonicParsing="false" text="Add" />
+      <Button layoutX="735.0" layoutY="289.0" mnemonicParsing="false" text="Delete" />
+      <Button layoutX="652.0" layoutY="289.0" mnemonicParsing="false" text="Modify" />
+      <Button layoutX="594.0" layoutY="289.0" mnemonicParsing="false" text="Add" />
+   </children>
+</AnchorPane>
