@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>gabler.c482jgabler/gabler.c482jgabler.MainMenuApplication</mainClass>
+                            <mainClass>gabler.c482jgabler/gabler.c482jgabler.MainMenu</mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
                             <jlinkImageName>app</jlinkImageName>
